@@ -1,12 +1,15 @@
 # 💳 Credit Risk Predictive Analytics  
-### End-to-End Machine Learning Project for Loan Default Risk Assessment
-![App link](https://credit-risk-predictive-analytics-io9eu3i3vgynhrqrkl8gpw.streamlit.app/)
+
 ![Python](https://img.shields.io/badge/Python-Machine%20Learning-3776AB)
 ![Scikit-learn](https://img.shields.io/badge/Scikit--Learn-Modeling-F7931E)
 ![Domain](https://img.shields.io/badge/Domain-Credit%20Risk-blue)
 ![Status](https://img.shields.io/badge/Project-Complete-success)
 
 ---
+<a href="https://credit-risk-predictive-analytics-io9eu3i3vgynhrqrkl8gpw.streamlit.app/" target="_blank">
+  <img src="https://img.shields.io/badge/Live_Demo-FF6B6B?style=for-the-badge&logo=streamlit&logoColor=white" alt="Live Demo">
+</a>
+
 
 ## 📌 Project Overview
 
