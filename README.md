@@ -170,5 +170,7 @@ A lightweight application (`app.py`) was built to demonstrate real-time predicti
 This simulates how the model can be integrated into a real lending system.
 
 ---
+## OUTPUT
 
+![House Market Overview](https://github.com/sks111/House_Market_-Analysis-using-Power-BI/blob/main/screenshot/house%20market%20overview.png)
 
