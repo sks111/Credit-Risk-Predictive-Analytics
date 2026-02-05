@@ -4,7 +4,7 @@ import pandas as pd
 import joblib
 import numpy as np
 
-# FIX: set_page_config FIRST (line 6)
+
 st.set_page_config(page_title="Credit Risk", layout="wide")
 
 @st.cache_resource
@@ -78,3 +78,4 @@ if st.sidebar.button("PREDICT RISK", type="primary"):
     st.dataframe(summary_df)
 
 st.markdown("---")
+
