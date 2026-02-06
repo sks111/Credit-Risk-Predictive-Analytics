@@ -4,7 +4,6 @@ import pandas as pd
 import joblib
 import numpy as np
 
-# FIX: set_page_config FIRST (line 6)
 st.set_page_config(page_title="Credit Risk", layout="wide")
 
 @st.cache_resource
@@ -13,9 +12,13 @@ def load_models():
     encoders = {
         'Sex': joblib.load('models/Sex_encoder.pkl'),
         'Job': joblib.load('models/Job_encoder.pkl'),
+        'Housing': joblib.load('models/Housing_encoder.pkl'),
+        'Saving accounts': joblib.load('models/Saving_accounts_encoder.pkl'),
+        'Checking account': joblib.load('models/Checking_account_encoder.pkl'),
     }
     target_encoder = joblib.load('models/target_encoder.pkl')
     return model, encoders, target_encoder
+
 
 
 model, encoders, target_encoder = load_models()
@@ -76,4 +79,5 @@ if st.sidebar.button("PREDICT RISK", type="primary"):
     st.dataframe(summary_df)
 
 st.markdown("---")
+
 
